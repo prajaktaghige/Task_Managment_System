@@ -1,0 +1,85 @@
+/* dashboard.component.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Logout Button */
+  button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Get the element to line up correctly */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 12px; /* Rounded corners */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Remove borders between table cells */
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Add a border around table cells */
+    padding: 8px; /* Add padding inside cells */
+    text-align: left; /* Left align text */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Add a background color to even table rows */
+  }
+  
+  tr:hover {
+    background-color: #ddd; /* Add a background color on hover */
+  }
+  
+  th {
+    padding-top: 12px; /* Add padding to the top of table headers */
+    padding-bottom: 12px; /* Add padding to the bottom of table headers */
+    text-align: left; /* Left align text */
+    background-color: #4CAF50; /* Green background for table headers */
+    color: white; /* White text for table headers */
+  }
+  
+  /* Input Styles */
+  input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 12px 20px; /* Some padding */
+    margin: 8px 0; /* Some margin */
+    box-sizing: border-box; /* Ensure padding does not affect width */
+    border: 2px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  /* Add Button */
+  button.add-button {
+    background-color: #008CBA; /* Blue background */
+  }
+  
+  button.add-button:hover {
+    background-color: #007B9E; /* Darker blue on hover */
+  }
+  
+  /* Delete Button */
+  button.delete-button {
+    background-color: #f44336; /* Red background */
+  }
+  
+  button.delete-button:hover {
+    background-color: #e53935; /* Darker red on hover */
+  }
+  

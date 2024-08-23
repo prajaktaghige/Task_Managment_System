@@ -1,0 +1,68 @@
+/* login.component.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for the login form */
+  .login-container {
+    max-width: 400px; /* Maximum width of the container */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Padding inside the container */
+    border: 1px solid #ccc; /* Border around the container */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  /* Form Labels */
+  label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 8px; /* Margin below labels */
+    font-weight: bold; /* Bold font */
+  }
+  
+  /* Input Fields */
+  input[type="text"], input[type="password"] {
+    width: 100%; /* Full width */
+    padding: 12px 20px; /* Padding inside inputs */
+    margin: 8px 0; /* Margin around inputs */
+    box-sizing: border-box; /* Ensure padding does not affect width */
+    border: 2px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  /* Login Button */
+  button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Get the element to line up correctly */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 12px; /* Rounded corners */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Demo Account Info */
+  .demo-account {
+    margin-top: 20px; /* Margin above demo account info */
+    font-size: 14px; /* Smaller font size */
+    color: #555; /* Gray text color */
+  }
+  
+  .demo-account span {
+    font-weight: bold; /* Bold font for labels */
+  }
+  
